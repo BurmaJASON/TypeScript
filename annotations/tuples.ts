@@ -12,3 +12,13 @@ const drink = {
 type Drink = [string, boolean, number];
 const pepsi : Drink = ['brown', true, 40]; 
 const cola : Drink = ['brown', false, 100]; 
+
+
+
+// why not use often tuples
+const carSpecs : [number, number] = [400,233]; //not clear what it means
+
+const carStats = {
+    horsepower : 400,
+    weight : 223
+}// clear with object what it means
