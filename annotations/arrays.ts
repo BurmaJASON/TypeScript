@@ -18,3 +18,13 @@ const myCar = carMakers.pop();
 carMakers.map((car : string) : string => {
     return car.toUpperCase();
 } )
+
+
+//  Flexible types
+// const importantDates : (Date | string) [] = [new Date(), 'adsfafafa'];
+const importantDates : (Date | string) [] = [];
+
+
+importantDates.push('adfasdfasdf')
+importantDates.push(new Date());
+// importantDates.push(23);
